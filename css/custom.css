@@ -1,0 +1,53 @@
+.jumbotron {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jumbotron h1{
+    font-size: 52px;
+}
+.jumbotron input[type=text] {
+    padding: 14px 24px;
+    font-size: 21px;
+    vertical-align: bottom;
+}
+.results, #selected-plate-description p {
+    margin-top: 20px;
+}
+
+.jumbotron .btn {
+    margin-top: 25px;
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 415px) {
+    h1 {
+        font-size: 18px;
+        margin-top: 70px;
+    }
+
+    .jumbotron {
+        padding-bottom: 0;
+    }
+
+    .jumbotron h3{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .jumbotron input[type=text] {
+        padding: 12px 0;
+        font-size: 13px;
+        vertical-align: bottom;
+    }
+
+    .jumbotron p {
+        font-size: 14px;
+    }
+
+    .jumbotron .btn {
+        margin: 10px 0 0 0;
+        padding: 4px 15px;
+        font-size: 21px;
+    }
+}
